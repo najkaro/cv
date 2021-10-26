@@ -1,6 +1,6 @@
 @page {
     margin:0;
-    size:letter;
+    /* size:letter; */
 }
 @media print {
     .lang.no-print {
@@ -19,6 +19,7 @@ body {
     font-family:'Roboto', sans-serif;
     height:100%;
     margin:0;
+    background-color:rgb(31, 30, 30);
 }
 .container {
     width:1000px;
