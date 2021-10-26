@@ -6,8 +6,6 @@
     .lang.no-print {
         display:none; 
     }
-}
-@media print {
     .qr.onlyprint{
         display: block;
     }
