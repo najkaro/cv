@@ -9,6 +9,9 @@
     .qr.onlyprint{
         display: block;
     }
+    .opis.onlyprint{
+        display: inline;
+    }
 }
 html {
     height:100%;
@@ -19,14 +22,14 @@ body {
     margin:0;
     background-color:rgb(31, 30, 30);
 }
-.container {
+.container{
     width:1000px;
     display:flex;
     margin:0 auto;  
     justify-items:center;
     min-height:100%;
 }
-.foto {
+.foto{
     display:block;
     margin:5px auto;
     width:203px;
@@ -41,7 +44,7 @@ body {
     object-fit:cover;
     width:153px;
 }
-h1 {
+h1{
     font-size: xx-large;
     text-align: center;
     margin: 0;
@@ -93,6 +96,9 @@ h3{
 }
 .column2 p{
     padding-right: 15px;
+}
+.opis{
+    display: none;
 }
 footer{
     font-size: small;
