@@ -1,15 +1,15 @@
 @page {
-    margin:0;
+    margin: 0;
     /* size:letter; */
 }
 @media print {
     .lang.no-print {
         display:none; 
     }
-    .qr.onlyprint{
+    .qr.onlyprint {
         display: block;
     }
-    .opis.onlyprint{
+    .opis.onlyprint {
         display: inline;
     }
 }
@@ -132,58 +132,36 @@ h4 {
     display:flex;
     margin:2px 0;
 }
-.fa-linkedin {
-    color: white;
-    background-color: #4e7e9c;
-}
 .fa {
     padding: 5px;
     width: auto;
     text-align: center;
     text-decoration: none;
+    color:white;
 }
 .fa:visited{
     color: white
 }
 .fa:hover{
-    background-color:#007bb5;
     text-decoration: none;
-}
-.fa-phone {
-    color:white;
-}
-.fa-envelope {
-    color:white;
 }
 .lang {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    font-weight: 800;  
-    color:rgb(37, 37, 37);
+    font-weight: 800;
 }
-.lang a:link{      
-    color:rgb(37, 37, 37);
+.lang a:link, .lang a:visited {      
+    color: rgb(172, 172, 172);
 }
 .lang a:hover {
     color: rgb(122, 111, 111);
 }
-#a-pl {
-    font-weight: 800;
-    color: rgb(15, 15, 15);
-}
-#a-en {
-    font-weight: 800;
-    color: rgb(15, 15, 15);
-}
-.lang:hover{
-    color: blue;
-}
-.lang:visited{
-    color: rgb(80, 79, 79);
-}
-hr{
-    margin-top:0;
-    margin-bottom: 5px;
+.lang a.open-site {
     color:black;
+}
+hr {
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: black;
 }
