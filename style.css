@@ -6,9 +6,9 @@
     .lang.no-print {
         display:none; 
     }
-    /* .qr.onlyprint {
-        display: block;
-    } */
+    .c1.position.onlyprint {
+        visibility: visible;
+    }
     .opis.onlyprint {
         display: inline;
     }
@@ -38,9 +38,15 @@ body {
     object-position: 0px 18%;
     border-radius: 50%;
 }
-.qr {
-    display: none;
+.c1.position {
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    align-items: center;
     margin: auto;
+    visibility: hidden;
+}
+.qr {
     object-fit: cover;
     width: 153px;
 }
