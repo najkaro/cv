@@ -12,6 +12,21 @@
     .opis.onlyprint {
         display: inline;
     }
+    /* If the screen size is 501px wide or more, set the font-size of <div> to 80px */
+/* @media screen and (min-width: 501px) { */
+    /* div .container { */
+      /* font-size: 16px; */
+    /* } */
+  /* } */
+  
+  /* If the screen size is 500px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 550px) {
+    div.container {
+      /* font-size: 14px; */
+      font-size: 5vw
+    }
+  }
+   
 }
 html {
     height: 100%;
@@ -117,7 +132,6 @@ h4 {
     width: 40%;
     display: inline-table;
     margin: 5px 0;
-    font-size: 16px;
 }
 .c5>ul>li>span {
     /* doświadczenie i edukacja daty */
